@@ -1,46 +1,27 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Context and Hooks
 
-### Author: Student/Group Name
+### Author: Becca Lee
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [repo](https://codesandbox.io/s/y0v8vkwk51)
+* [url](https://y0v8vkwk51.codesandbox.io/)
 
-#### Documentation
-* [swagger](http://xyz.com) (API assignments only)
-* [jsdoc](http://xyz.com) (All assignments)
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
-
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+- `styles.js` contains the CSS-in-JS objects
+- `setupTests.js` contains the testing boilerplate
+- `index.js` renders the app
+- `app.js` renders the content
+- `content.js` creates the content rendered by the app, including the counter functionality
+- `settings/context.js` sets context for the app, sets the count, and creates the increment and decrement methods used in `content.js`
+- `__tests__/tests.js` contains the tests for the app
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* The app can be run using the url linked above.
+* If you wish to work with the code, simply fork the repo and jump right in
   
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
-
-#### UML
-Link to an image of the UML for your application and response to events
+Tests were run to check that the core functionality of the counter worked correctly.
